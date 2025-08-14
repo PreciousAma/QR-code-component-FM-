@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+}
+
+.container {
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  width: 320px;
+  padding: 16px 16px 40px;
+}
+
+.qr-image {
+  max-width: 288px;
+  border-radius: 10px;
+}
+
+.texts {
+  margin-top: 24px;
+  text-align: center;
+  padding: 0 16px;
+}
+
+.heading {
+  margin-bottom: 16px;
+  font-size: 22px;
+  color: #1f314f;
+}
+.sub-text {
+  color: #68778d;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+}
